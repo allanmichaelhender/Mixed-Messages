@@ -101,10 +101,10 @@ for (let attribute in holidayOptions) {
 
 // Formatting our array in a more readable presentation
 for (let i=0; i<=3; i++) {
-    if (i===0){console.log(`Your destination country is: ${ourTrip[i]}`)};
+    if (i===0){console.log(`\nYour destination country is: ${ourTrip[i]}`)};
     if (i===1){console.log(`You are staying for ${ourTrip[i]} days`)};
     if (i===2){console.log(`You are staying in a ${ourTrip[i]} star hotel`)};
-    if (i===3){console.log(`Whilst away, you should: ${ourTrip[i]} or ${ourTrip[i+1].toLowerCase()} or ${ourTrip[i+2].toLowerCase()}`)};
+    if (i===3){console.log(`Whilst away, you should: ${ourTrip[i]} or ${ourTrip[i+1].toLowerCase()} or ${ourTrip[i+2].toLowerCase()}\n`)};
 
 }
 
